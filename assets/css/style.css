@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    color: aqua;
+    font-family: Roboto;
+    font-weight: 400;
 }
