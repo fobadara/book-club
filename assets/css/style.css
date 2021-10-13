@@ -9,7 +9,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #333;
+    color: #333;;
 }
 
 /* headings and logo */
@@ -24,4 +24,42 @@ h1, h2 {
     float: left;
     font-size: 250%;
 }
+
+/* navigation links */
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#menu {
+    font-size: 110%;
+    float: right;
+    margin-right: 30px;
+}
+
+#menu, #logo {
+    line-height: 65px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 0 8px;
+    display: inline-block;
+    color: #111;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    transition: .4s;
+}
+
+#menu a.active,
+#menu a:hover {
+    background: #ba2710;
+    border-radius: 4px;
+}
+
 
