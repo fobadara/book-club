@@ -23,15 +23,16 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 250%;
+    margin-left: 30px;
 }
 
 /* navigation links */
 
-#navbar {
+/* #navbar {
     height: 60px;
     width: 100%;
     background: rgba(0, 0, 0, 0.4);
-}
+} */
 
 #menu {
     font-size: 110%;
@@ -56,10 +57,16 @@ h1, h2 {
     transition: .4s;
 }
 
-#menu a.active,
+
 #menu a:hover {
     background: #ba2710;
     border-radius: 4px;
 }
 
-
+/* hero image */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    background-size: cover;
+}
